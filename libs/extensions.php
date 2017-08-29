@@ -38,6 +38,7 @@ function ConexionAutomaticaSII($empresa = "", &$mensaje = "", $cron = ""){
 
                 $dom->loadXML($body);
 
+                //se debe agregar libreria xmlseclibs
 		        $xmlTool = new FR3D\XmlDSig\Adapter\XmlseclibsAdapter();
 		        $key = array();
                 $pfx_archivo = "certif/".$empresa.".pfx";

@@ -1,7 +1,6 @@
 <?php
 error_reporting(E_ALL ^ E_WARNING);
 ini_set('display_errors', 1);
-require_once('../libs/xmlseclibs/XmlseclibsAdapter.php');
 require_once('../libs/databaseConnect.php');
 require_once('../libs/nusoap/nusoap.php');
 require_once('../libs/extensions.php');
