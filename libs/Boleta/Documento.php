@@ -9,13 +9,13 @@ namespace BOLETA_SERIALIZACION;
  * @property TED $TED  
 */
 class Documento{
-    public $Encabezado;
-    public $Detalle;
-    public $SubTotInfo;
-    public $DscRcgGlobal;
-    public $Referencia;
-    public $TED;
-    public $TmstFirma;
+    private $Encabezado;
+    private $Detalle;
+    private $SubTotInfo;
+    private $DscRcgGlobal;
+    private $Referencia;
+    private $TED;
+    private $TmstFirma;
     
     function getEncabezado() {
         return $this->Encabezado;

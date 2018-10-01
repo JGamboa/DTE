@@ -1,13 +1,13 @@
 <?php
 namespace BOLETA_SERIALIZACION;
 class Emisor{
-    public $RUTEmisor;
-    public $RznSocEmisor;
-    public $GiroEmisor;
-    public $CdgSIISucur;
-    public $DirOrigen;
-    public $CmnaOrigen;
-    public $CiudadOrigen;
+    private $RUTEmisor;
+    private $RznSocEmisor;
+    private $GiroEmisor;
+    private $CdgSIISucur;
+    private $DirOrigen;
+    private $CmnaOrigen;
+    private $CiudadOrigen;
     
     function getRUTEmisor() {
         return $this->RUTEmisor;
