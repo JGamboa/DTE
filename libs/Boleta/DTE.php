@@ -18,7 +18,7 @@ require_once('SubTotInfo.php');
  * @property Documento $Documento Esta propiedad referencia a la clase Documento
 */
 class DTE{
-    public $Documento;
+    private $Documento;
     
     function getDocumento() {
         return $this->Documento;

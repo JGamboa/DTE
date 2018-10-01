@@ -1,16 +1,16 @@
 <?php
 namespace BOLETA_SERIALIZACION;
 class InfoTicket{
-    public $FolioTicket;
-    public $FchGenera;
-    public $NmbEvento;
-    public $TpoTiket;
-    public $CdgEvento;
-    public $FchEvento;
-    public $LugarEvento;
-    public $UbicEvento;
-    public $FilaUbicEvento;
-    public $AsntoUbicEvento;
+    private $FolioTicket;
+    private $FchGenera;
+    private $NmbEvento;
+    private $TpoTiket;
+    private $CdgEvento;
+    private $FchEvento;
+    private $LugarEvento;
+    private $UbicEvento;
+    private $FilaUbicEvento;
+    private $AsntoUbicEvento;
     
     function getFolioTicket() {
         return $this->FolioTicket;

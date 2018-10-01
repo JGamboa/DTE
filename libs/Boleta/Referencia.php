@@ -1,11 +1,11 @@
 <?php
 namespace BOLETA_SERIALIZACION;
 class Referencia{
-    public $NroLinRef;
-    public $CodRef; 
-    public $RazonRef;
-    public $CodVndor;
-    public $CodCaja;
+    private $NroLinRef;
+    private $CodRef; 
+    private $RazonRef;
+    private $CodVndor;
+    private $CodCaja;
     
     function getNroLinRef() {
         return $this->NroLinRef;

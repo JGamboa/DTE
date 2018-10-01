@@ -5,7 +5,7 @@ require_once('DD.php');
  * @property DD $DD
 */
 class TED{
-    public $DD;
+    private $DD;
     
     function getDD() {
         return $this->DD;

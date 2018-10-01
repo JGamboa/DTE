@@ -1,15 +1,15 @@
 <?php
 namespace BOLETA_SERIALIZACION;
 class SubTotInfo{
-    public $NroSTI;
-    public $GlosaSTI; 
-    public $OrdenSTI;
-    public $SubTotNetoSTI;
-    public $SubTotIVASTI;
-    public $SubTotAdicSTI;
-    public $SubTotExeSTI;
-    public $ValSubtotSTI;
-    public $LineasDeta;
+    private $NroSTI;
+    private $GlosaSTI; 
+    private $OrdenSTI;
+    private $SubTotNetoSTI;
+    private $SubTotIVASTI;
+    private $SubTotAdicSTI;
+    private $SubTotExeSTI;
+    private $ValSubtotSTI;
+    private $LineasDeta;
     
     function getNroSTI() {
         return $this->NroSTI;

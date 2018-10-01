@@ -5,22 +5,22 @@ namespace BOLETA_SERIALIZACION;
  * @property InfoTicket $InfoTicket Esta propiedad referencia a la clase InfoTicket
 */
 class Detalle{
-    public $NroLinDet;
-    public $CdgItem;
-    public $IndExe;
-    public $ItemEspectaculo;
-    public $RUTMandante;
-    public $NmbItem;
-    public $InfoTicket;
-    public $DscItem;
-    public $QtyItem;
-    public $UnmdItem;
-    public $PrcItem;
-    public $DescuentoPct;
-    public $DescuentoMonto;
-    public $RecargoPct;
-    public $RecargoMonto;
-    public $MontoItem;
+    private $NroLinDet;
+    private $CdgItem;
+    private $IndExe;
+    private $ItemEspectaculo;
+    private $RUTMandante;
+    private $NmbItem;
+    private $InfoTicket;
+    private $DscItem;
+    private $QtyItem;
+    private $UnmdItem;
+    private $PrcItem;
+    private $DescuentoPct;
+    private $DescuentoMonto;
+    private $RecargoPct;
+    private $RecargoMonto;
+    private $MontoItem;
 
     function getNroLinDet() {
         return $this->NroLinDet;

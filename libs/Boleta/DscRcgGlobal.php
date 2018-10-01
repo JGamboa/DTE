@@ -1,12 +1,12 @@
 <?php
 namespace BOLETA_SERIALIZACION;
 class DscRcgGlobal{
-    public $NroLinDR; //N�mero de descuento o recargo. De 1 a 20.
-    public $TpoMov; //D(descuento) o R(recargo) 
-    public $GlosaDR; //Especificaci�n de descuento o recargo 
-    public $TpoValor; //Indica si es Porcentaje o Monto 
-    public $ValorDR; //Valor del descuento o recargo en 16  enteros y 2 decimales
-    public $IndExeDR; //Indica si el descuento o recargo afecta a �tems exentos o no afectos a IVA.
+    private $NroLinDR; //N�mero de descuento o recargo. De 1 a 20.
+    private $TpoMov; //D(descuento) o R(recargo) 
+    private $GlosaDR; //Especificaci�n de descuento o recargo 
+    private $TpoValor; //Indica si es Porcentaje o Monto 
+    private $ValorDR; //Valor del descuento o recargo en 16  enteros y 2 decimales
+    private $IndExeDR; //Indica si el descuento o recargo afecta a �tems exentos o no afectos a IVA.
 
     function getNroLinDR() {
         return $this->NroLinDR;
